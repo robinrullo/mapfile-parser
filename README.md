@@ -29,6 +29,7 @@ It always return the status:
 ```json
 {
     "status": "success",
+    "validation": [],
     "mapfile": {
         "__type__": "map",
         "__comments__": {}
@@ -42,6 +43,7 @@ It always return the status:
 {
     "status": "error",
     "message": "Bad syntax in the Mapfile or Mapfile not supported",
+    "validation": [],
     "mapfile": {}
 }
 ```
